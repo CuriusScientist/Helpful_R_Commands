@@ -5,3 +5,8 @@ R commands that I found useful
 options(scipen = 999) # turn off scientific notation
 options(scipen = 0)   # turn on scientific notation
 ```
+
+```
+library(psych)
+psych::describe(distance)   # similar to summary but gives more paramters in output 
+```
